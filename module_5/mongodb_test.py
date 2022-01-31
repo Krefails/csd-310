@@ -1,4 +1,3 @@
-from ast import Constant
 import pymongo
 from pymongo import MongoClient
 import certifi
