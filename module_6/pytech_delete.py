@@ -5,8 +5,7 @@ from asyncio.windows_events import NULL
 import pymongo
 from pymongo import MongoClient
 import certifi
-
-URI = "mongodb+srv://admin:admin@cluster0.1qv4w.mongodb.net/pytech?retryWrites=true&w=majority"
+from mongoURI import URI
 
 client = pymongo.MongoClient(URI, tlsCAFile=certifi.where())
 

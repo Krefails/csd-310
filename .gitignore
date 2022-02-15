@@ -127,3 +127,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+module_5/mongoURI.py
+module_6/mongoURI.py

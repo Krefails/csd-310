@@ -5,8 +5,7 @@ import pymongo
 from pymongo import MongoClient
 # Was getting an SSL CERT INVALID error. Fixed it by installing and importing Certifi.
 import certifi
-
-URI = "mongodb+srv://admin:admin@cluster0.1qv4w.mongodb.net/pytech?retryWrites=true&w=majority"
+from mongoURI import URI
 
 client = pymongo.MongoClient(URI, tlsCAFile=certifi.where())
 
